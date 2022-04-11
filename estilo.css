@@ -1,0 +1,123 @@
+/*MUDANDO PLANO DE FUNDO
+
+background-color: #FF0000;
+background-image: url('img.gif')
+background-repeat
+background-attachment
+background-position
+*/
+
+/*CORES PODEM SER DEFINIDAS COMO:
+Hexadecimais: #FF0000
+RGB: RGB (255,0,0)
+Nomes de cores: RED
+*/
+
+/*TAMANHOS 
+PX
+%
+SMALL / MEDIUM / LARGE
+*/
+
+
+/*-----CORPO DA PÁGINA-----*/
+body {background-color: #1c1c1c;}
+
+/*body {background-image: url(cps.jpg);
+	  background-repeat: no-repeat;
+  	  background-attachment: fixed;
+ 	  background-position: center; }*/
+
+
+/*-----MENU-----*/
+.menu
+	{background: #BA0000; /*COR DE FUNDO DO MENU*/
+	height: 20px; /*ALTURA DA FAIXA DE MENU*/
+	padding: 10px;} /*ESPAÇO ENTRE A BORDA DO OBJETO E O CONTEÚDO*/
+
+.menu ul
+	{list-style: none; /*RETIRANDO ÍCONES DA LISTA*/
+	margin: 0; /*POSICIONANDO A LISTA NO RENTE A AO PADDING DA FAIXA DO MENU*/	
+	padding: 0; /*ESPAÇAMENTO ENTRE A LISTA A A MARGEM*/ }
+
+.menu ul li
+	{float:left ; /*ALINHANDO TODOS OS ÍTENS DO MENU À ESQUERDA NA MESMA LINHA*/}
+
+.menu ul li a
+	{font-family: "Arial Narrow"; /*FONTE DO LINK*/
+	font-size: 12px; /*TAMANHO DO LINK*/
+	text-transform: uppercase; /*TODAS AS LETRAS MAIÚSCULAS*/
+	color:  white; /*COR DO LINK*/
+	font-weight: bold;
+	text-decoration: none ;
+	padding: 10px; /*ESPAÇAMENTO ENTRE OS ÍTENS DA LISTA*/
+;}
+
+.menu ul li a:hover
+	{background:  BLACK; /*COR DO FUNDO*/
+	}
+ 
+/*-----H1-----*/
+h1 {
+    font-size: 60px;
+    background-color:#A9A9A9;
+    color:#BA0000;
+    text-align: center;
+    font-family: "Open Sans",sans-serif; 
+}
+
+/*-----TABELA-----*/
+table{
+ 	margin-left: auto; /*ALINHANDO TABELA NO CENTRO DA PÁGINA*/
+    margin-right: auto; /*ALINHANDO TABELA NO CENTRO DA PÁGINA*/
+	background-color: white; /*COR DE FUNDO DA TABELA*/
+    border: 10px; /*ESPESSURA DA BORDA*/
+    border-color: black; /*COR DA BORDA*/  
+    border-collapse: collapse; /*BORDA COM LINHA ÚNICA*/
+	width: 90%; /*LARGURA DA TABELA*/
+	height: 400px; /*ALTURA DA TABELA*/
+	font-family: arial narrow; /*FONTE DA TABELA*/
+	text-align: center; /*ALINHAMENTO DO TEXTO DE TODA A TABELA*/
+}
+
+td{
+	width: 25%;
+}
+
+th{
+	background-color: #BA0000;
+	font-family: arial narrow;
+	font-size: large;
+	color: white;
+	height: 50px;
+}
+.subtitulo
+{background-color: #800000;
+color:  white;
+}
+
+.filme
+{background-color: #A9A9A9;
+}
+
+
+#area
+{
+  position:relative;
+  margin-left:auto;
+  margin-right: auto;
+  width:300px;
+  height:300px;
+}
+
+#area #formulario
+{
+  position:absolute;
+  display:block;
+}
+fieldset
+{
+  background-color: WHITE;
+  width:300px;
+  height:300px;
+}
